@@ -15,7 +15,7 @@ int g(int *p,int i,int j)
   for(int k=i;k<j;k++)
   {
 
-      val = g(p,i,k) + g(p,k+1,j) + (p[i] * p[k] * p[j]);
+      val = g(p,i,k) + g(p,k+1,j) + (p[i-1] * p[k] * p[j]);
       if(val < min)
         min = val;
   } 
