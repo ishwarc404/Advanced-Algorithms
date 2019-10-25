@@ -1,6 +1,7 @@
 #include "../include/survival_of_the_fittest.hpp"
 #include <vector>
 #include <iostream>
+#include <string.h>
 using namespace std;
 
 double dp[110][110][110];
